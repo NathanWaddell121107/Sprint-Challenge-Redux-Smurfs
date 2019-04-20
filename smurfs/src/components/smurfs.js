@@ -8,7 +8,6 @@ const Smurfs = props => {
             {props.smurfs.map(smurf => {
                 return(
                     <div>
-                        <h1>Welcome to Smurf Village!</h1>
                         <ul key={smurf.id}>
                             <Smurf
                                 id={smurf.id}

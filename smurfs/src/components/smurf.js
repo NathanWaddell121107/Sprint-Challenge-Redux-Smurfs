@@ -2,10 +2,10 @@ import React from 'react';
 
 const Smurf = props => {
     return(
-        <ul>
-            <li>{props.name}</li>
-            <li>{props.age}</li>
-            <li>{props.height}</li>
+        <ul className='smurfCard'>
+            <p>{props.name}</p>
+            <p>{props.age}</p>
+            <p>{props.height}</p>
         </ul>
     )
 }
