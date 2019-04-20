@@ -15,6 +15,9 @@ const Smurfs = props => {
                                 age={smurf.age}
                                 height={smurf.height}
                             />
+                            <button
+                                onClick={() => {props.deleteSmurf(smurf.id)}}
+                            >Delete</button>
                         </ul>
                     </div>
                 )
